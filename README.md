@@ -68,10 +68,14 @@ Digunakan ulang di:
 
 ## Screenshot Preview
 
-![Homescreen](assets/homescreen.jpg)
-![addscreen](https://github.com/user-attachments/assets/9d284522-0eb9-41bb-92ea-1add8afe9a12)
-![summaryscreen](https://github.com/user-attachments/assets/dab795ea-d336-403e-afc2-d0991e8fa6e9)
-
+<p align="center">
+  <img src="assets/homescreen.jpg" width="300" />
+</p>
+<p align="center">
+  <img src="assets/addscreen.jpg" width="300" />
+<p align="center">
+  <img src="assets/summaryscreen.jpg" width="300" />
+</p>
 
 ## Cara Menjalankan
 
