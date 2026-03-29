@@ -68,7 +68,7 @@ Digunakan ulang di:
 
 ## Screenshot Preview
 
-![homescreen](https://github.com/user-attachments/assets/cb79b26e-97a1-4024-8813-c3830e814554)
+![Homescreen](assets/homescreen.jpg)
 ![addscreen](https://github.com/user-attachments/assets/9d284522-0eb9-41bb-92ea-1add8afe9a12)
 ![summaryscreen](https://github.com/user-attachments/assets/dab795ea-d336-403e-afc2-d0991e8fa6e9)
 
