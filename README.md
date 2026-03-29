@@ -83,9 +83,9 @@ Aplikasi ini menggunakan **Expo**.
 git clone <URL_REPOSITORY>
 ```
 
-### 2. Install Dependencies
+### 2. Install Expo
 ```bash
-npm install @react-navigation/native @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context @react-native-async-storage/async-storage
+npm install expo
 ```
 
 ### 3. Jalankan Aplikasi
