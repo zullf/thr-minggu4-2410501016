@@ -69,7 +69,7 @@ Digunakan ulang di:
 ## Screenshot Preview
 
 <p>
-  <img src="assets/homescreen.jpg" width="250" style="margin-right:10px;"/>
+  <img src="assets/home.jpg" width="250" style="margin-right:10px;"/>
   <img src="assets/addscreen.jpg" width="250" style="margin-right:10px;"/>
   <img src="assets/summaryscreen.jpg" width="250"/>
 </p>
