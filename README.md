@@ -68,13 +68,10 @@ Digunakan ulang di:
 
 ## Screenshot Preview
 
-<p align="center">
-  <img src="assets/homescreen.jpg" width="300" />
-</p>
-<p align="center">
-  <img src="assets/addscreen.jpg" width="300" />
-<p align="center">
-  <img src="assets/summaryscreen.jpg" width="300" />
+<p>
+  <img src="assets/homescreen.jpg" width="250" style="margin-right:10px;"/>
+  <img src="assets/addscreen.jpg" width="250" style="margin-right:10px;"/>
+  <img src="assets/summaryscreen.jpg" width="250"/>
 </p>
 
 ## Cara Menjalankan
