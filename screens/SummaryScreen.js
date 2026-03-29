@@ -73,7 +73,7 @@ const SummaryScreen = () => {
 const styles = StyleSheet.create({
   safeArea: { flex: 1 },
   container: { padding: 20, paddingBottom: 120 },
-  headerRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24, marginTop: 10 },
+  headerRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24, marginTop: 30 },
   pageTitle: { fontSize: 24, fontWeight: '800' },
   themeBtn: { width: 44, height: 44, borderRadius: 22, justifyContent: 'center', alignItems: 'center', elevation: 2 },
   categorySection: { borderRadius: 24, padding: 24 },

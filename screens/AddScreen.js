@@ -38,7 +38,6 @@ const AddScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={[styles.safeArea, { backgroundColor: colors.background }]}>
-      <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={{ flex: 1 }}>
         <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
           
           <View style={styles.header}>
@@ -94,7 +93,6 @@ const AddScreen = ({ navigation }) => {
           </TouchableOpacity>
 
         </ScrollView>
-      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 };
@@ -102,7 +100,7 @@ const AddScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   safeArea: { flex: 1 },
   container: { padding: 20, paddingBottom: 120 },
-  header: { alignItems: 'center', marginBottom: 30, marginTop: 10 },
+  header: { alignItems: 'center', marginBottom: 30, marginTop: 30 },
   headerTitle: { fontSize: 20, fontWeight: '700' },
   typeSwitcher: { flexDirection: 'row', borderRadius: 30, padding: 4, marginBottom: 40 },
   typeBtn: { flex: 1, paddingVertical: 12, alignItems: 'center', borderRadius: 26 },

@@ -40,8 +40,13 @@ const HomeScreen = () => {
       <View style={styles.container}>
         
         <View style={styles.topHeader}>
-          <View style={[styles.avatarMock, { backgroundColor: colors.card }]}>
-            <Text style={{fontSize: 20}}>😎</Text>
+          <View style={styles.headerLeft}>
+            <View style={[styles.avatarMock, { backgroundColor: colors.card }]}>
+              <Text style={{fontSize: 20}}>😎</Text>
+            </View>
+            <View style={styles.appTitleContainer}>
+              <Text style={[styles.appTitle, { color: colors.text }]}>THR Manager</Text>
+            </View>
           </View>
           
           <View style={styles.headerIcons}>
@@ -88,6 +93,10 @@ const styles = StyleSheet.create({
   safeArea: { flex: 1, paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0 },
   container: { flex: 1, paddingHorizontal: 20 },
   topHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 20, marginBottom: 25 },
+  headerLeft: { flexDirection: 'row', alignItems: 'center' },
+  appTitleContainer: { marginLeft: 12 },
+  appTitle: { fontSize: 18, fontWeight: '800', letterSpacing: -0.5 },
+  appSubtitle: { fontSize: 12, fontWeight: '500', marginTop: 2 },
   avatarMock: { width: 44, height: 44, borderRadius: 22, alignItems: 'center', justifyContent: 'center', elevation: 2 },
   headerIcons: { flexDirection: 'row', alignItems: 'center' },
   themeBtn: { width: 44, height: 44, borderRadius: 22, justifyContent: 'center', alignItems: 'center', elevation: 2, shadowColor: '#000', shadowOpacity: 0.1, shadowRadius: 5 },
