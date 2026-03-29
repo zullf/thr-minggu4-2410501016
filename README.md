@@ -24,22 +24,16 @@ Digunakan untuk mengelola state lokal:
 - `HomeScreen.js` → status filter aktif
 - `ThemeContext.js` → status dark mode
 
----
-
 ### 🔹 useEffect
 Digunakan untuk menangani *side effects*:
 - `TransactionContext.js`:
   - Load data dari AsyncStorage saat pertama kali aplikasi dijalankan
   - Menyimpan data setiap kali transaksi berubah
 
----
-
 ### 🔹useContext 
 Digunakan secara luas di berbagai komponen (seperti `HomeScreen`, `AddScreen`, `SummaryScreen`, `BalanceCard`, dan `InsightCard`) 
 untuk mengonsumsi data global dari `TransactionContext` (data transaksi) dan `ThemeContext` (tema warna terang/gelap) secara langsung tanpa perlu melakukan 
 ***props drilling***.
-
----
 
 ### 🔹 useReducer
 Digunakan sebagai pengelola global state transaksi:
@@ -49,8 +43,6 @@ Digunakan sebagai pengelola global state transaksi:
 - `ADD_TRANSACTION` → Tambah transaksi
 - `DELETE_TRANSACTION` → Hapus transaksi berdasarkan ID
 - `CLEAR_ALL` → Reset semua data
-
----
 
 ### 🔹 Custom Hook: `useWallet`
 Lokasi: `src/hooks/useWallet.js`
